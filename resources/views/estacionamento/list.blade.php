@@ -5,7 +5,9 @@
     <div class="row justify-content-center">
         <div class="col-md-8">
             <div class="card">
-                <div class="card-header">{{ __('Dashboard') }}</div>
+                <div class="card-header">
+                    <h1>Carros Estacionados</h1>
+                </div>
 
                 <div class="card-body">
                     @if (session('status'))
@@ -14,8 +16,6 @@
                         </div>
                     @endif
 
-                    <h1>Seja Bem-Vindo!</h1>
-                    <a href="{{ url('estacionamento')}}">controle do estacionamento</a>
                 </div>
             </div>
         </div>
